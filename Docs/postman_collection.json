@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "069b964a-4550-4302-878f-4fb72d4ce2a2",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24908263",
+		"_collection_link": "https://winter-meadow-158911.postman.co/workspace/Team-Workspace~37949438-4a78-448c-807e-f192289b4dbc/collection/24908263-069b964a-4550-4302-878f-4fb72d4ce2a2?action=share&source=collection_link&creator=24908263"
+	},
+	"item": [
+		{
+			"name": "Información ciudad",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5041/API/Ingreso/informacion-estado-ciudad?ciudad=bogotá",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5041",
+					"path": [
+						"API",
+						"Ingreso",
+						"informacion-estado-ciudad"
+					],
+					"query": [
+						{
+							"key": "ciudad",
+							"value": "bogotá"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Historial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5041/API/Ingreso/get-historial",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5041",
+					"path": [
+						"API",
+						"Ingreso",
+						"get-historial"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
